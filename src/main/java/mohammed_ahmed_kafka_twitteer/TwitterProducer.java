@@ -24,10 +24,10 @@ import java.util.concurrent.TimeUnit;
 
 public class TwitterProducer {
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class.getName());
-    String consumerKey = "1USSCTtsm8hRdAJvAJImSpjGV";
-    String consumerSecret = "H8a6G4mKJ6JkdMLGVPgVB4iZIJ61a10x0ronM2953zES3kihL1";
-    String token = "1545349160-imp76YcBqBT5X2aEC6HXxBbINzUUhaMrNujSJsf";
-    String secret = "gq1IUcCEAv5p9x7bdcJ6LesXehhYWaepkfIJzJHsYKmuF";
+    String consumerKey = "use your twitter API key";
+    String consumerSecret = "your secret key";
+    String token = "your token";
+    String secret = "your token secret";
 
     List<String> terms = Lists.newArrayList("trump");
     // create public constructor
